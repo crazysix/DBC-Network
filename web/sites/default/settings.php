@@ -26,9 +26,22 @@ include __DIR__ . "/settings.pantheon.php";
 // $settings['skip_permissions_hardening'] = TRUE;
 
 /**
- * If there is a local settings file, then include it
+ * If there is a local settings file, then include it.
  */
 $local_settings = __DIR__ . "/settings.local.php";
 if (file_exists($local_settings)) {
   include $local_settings;
+}
+
+/**
+ * Set config drictory.
+ */
+$settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '/config';
+
+/**
+ * If in lando, use lando settings file.
+ */
+$lando_settings = __DIR__ . "/settings.lando.php";
+if (getenv('LANDO') === 'ON' && file_exists($lando_settings)) {
+  include $lando_settings;
 }

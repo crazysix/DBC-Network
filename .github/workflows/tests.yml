@@ -1,0 +1,39 @@
+name: Lint, Validate, Code Sniff
+
+#
+# Documentation:
+# https://help.github.com/en/articles/workflow-syntax-for-github-actions
+#
+
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  lint:
+    name: Lint Files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Lint files
+        uses: bdlangton/PHP-Lint@master
+
+  validation:
+    name: Composer Validation
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup PHP, with Composer
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: 7.4
+    - name: Validate Composer
+      run: composer validate
+
+  phpcs:
+    name: PHP Code Sniffer
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: guix77/phpcs-drupal-action@v1.0.0

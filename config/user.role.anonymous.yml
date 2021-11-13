@@ -1,14 +1,24 @@
-uuid: 444a2f93-02d5-419a-b136-8ef8c306401e
+uuid: 532bddf5-2ead-49fd-be88-f82466ff2e9a
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.restricted_html
   module:
+    - comment
+    - contact
+    - filter
+    - search
     - system
 _core:
-  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
 id: anonymous
 label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
+  - 'access comments'
   - 'access content'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'use text format restricted_html'

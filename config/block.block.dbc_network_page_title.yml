@@ -1,0 +1,20 @@
+uuid: 166551cc-e915-4295-b2eb-3018ef663a44
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dbc_network
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: dbc_network_page_title
+theme: dbc_network
+region: content_above
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

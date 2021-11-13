@@ -1,0 +1,20 @@
+uuid: b92a3684-389d-45f5-8543-e82fcf1a3f1b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dbc_network
+_core:
+  default_config_hash: sDmKoL9ejxB_fvD_qmgOHa8HN3X9AIsbud2xK8brMiI
+id: dbc_network_primary_admin_actions
+theme: dbc_network
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

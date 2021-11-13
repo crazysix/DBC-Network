@@ -1,0 +1,22 @@
+uuid: 819b728f-c7fb-420e-b056-0a48d77bf69e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dbc_network
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: dbc_network_primary_local_tasks
+theme: dbc_network
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

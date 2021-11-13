@@ -1,0 +1,22 @@
+uuid: 7172634a-236b-4ed7-a279-93e42145de27
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dbc_network
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: dbc_network_powered
+theme: dbc_network
+region: footer_bottom
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

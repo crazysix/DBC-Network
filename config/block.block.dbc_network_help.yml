@@ -1,0 +1,22 @@
+uuid: 42e9b3b4-e381-4e1d-b345-16d09f9c010d
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - dbc_network
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: dbc_network_help
+theme: dbc_network
+region: content_above
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

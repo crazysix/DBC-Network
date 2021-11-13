@@ -1,0 +1,23 @@
+uuid: 3028ecd7-c437-4e52-85e5-f159433012c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - dbc_network
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: dbc_network_search_form_wide
+theme: dbc_network
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

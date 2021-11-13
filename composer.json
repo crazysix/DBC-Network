@@ -14,8 +14,17 @@
         }
     ],
     "require": {
-        "pantheon-upstreams/upstream-configuration": "*",
-        "drush/drush": "^10"
+        "drupal/admin_toolbar": "^3.0",
+        "drupal/adminimal_admin_toolbar": "^1.11",
+        "drupal/adminimal_theme": "^1.6",
+        "drupal/chosen": "^3.0",
+        "drupal/config_ignore": "^2.3",
+        "drupal/ctools": "^3.7",
+        "drupal/diff": "^1.0",
+        "drupal/ds": "^3.13",
+        "drupal/webform": "^6.1",
+        "drush/drush": "^10",
+        "pantheon-upstreams/upstream-configuration": "*"
     },
     "conflict": {
             "drupal/drupal": "*"
@@ -56,5 +65,13 @@
         "platform": {
             "php": "7.4"
         }
+    },
+    "require-dev": {
+        "drupal/devel": "^4.1",
+        "drupal/stage_file_proxy": "^1.1",
+        "drupal/twig_xdebug": "^1.2",
+        "kint-php/kint": "^3.3",
+        "kint-php/kint-twig": "^3.0",
+        "symfony/var-dumper": "^5.3"
     }
 }

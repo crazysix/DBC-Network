@@ -32,6 +32,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
+        "installer-types": [
+            "bower-asset",
+            "npm-asset",
+            "drupal-library"
+        ],
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],
@@ -39,7 +44,13 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
-            "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
+            "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"],
+            "docroot/libraries/{$name}": [
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset",
+                "harvesthq/chosen"
+            ]
         },
         "composer-exit-on-patch-failure": true,
         "patchLevel": {

@@ -131,6 +131,9 @@ upstream/web/
 # Ignore .env files as they are personal
 #/.env
 
+# Ignore theme node_modules.
+web/themes/custom/*/node_modules
+
 # Ignore files created by finder.
 .DS_Store
 /*/.DS_Store

@@ -1,0 +1,19 @@
+uuid: a638df4c-2b26-4548-951a-eb00e703457b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_substrate_address
+    - paragraphs.paragraphs_type.account_addresses
+id: paragraph.account_addresses.field_substrate_address
+field_name: field_substrate_address
+entity_type: paragraph
+bundle: account_addresses
+label: 'Substrate Address'
+description: 'The substrate address.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

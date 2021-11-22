@@ -1,0 +1,30 @@
+uuid: 99d17522-2827-4467-9c87-f0f17cc2136b
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_address_status
+field_name: field_address_status
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: pending
+      label: Pending
+    -
+      value: review
+      label: 'Administration Review'
+    -
+      value: linked
+      label: Linked
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

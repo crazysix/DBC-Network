@@ -1,0 +1,34 @@
+{#
+/**
+ * @file
+ * Theme template for substrate address disaplay.
+ *
+ * Available variables:
+ * - attributes: Customizations for display.
+ * - addresses: The addresses to display.
+ */
+#}
+{% for address in addresses %}
+  <div class="web3-address web3-address-link">
+    <div class="address-to-link">
+      <svg width="{{ attributes.width }}" height="{{ attributes.height }}" data-jdenticon-value="{{ address.address }}"></svg>
+      {% if address.identity not empty %}
+        <div class="web3-address-identity {{ address.identity.status }}">
+          {{ address.identity.name }}
+        </div>
+      {% endif %}
+      <div class="web3-address-address">
+        {{ address.address }}
+      </div>
+    </div>
+    <div class="address-button">
+      {% if address.status == 'available' %}
+        <a href="#">{{ attributes.link_text }}</a>
+      {% elseif address.status == 'linked' %}
+        <a href="#">{{ attributes.unlink_text }}</a>
+      {% else %}
+        <div>{{ attributes.error_text }}</div>
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}

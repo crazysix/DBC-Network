@@ -1,0 +1,8 @@
+web3-bundle:
+  version: 1.x
+  js:
+    js/polkadot-bundle.js: {}
+    js/substrate-address.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings

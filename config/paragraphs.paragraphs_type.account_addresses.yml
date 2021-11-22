@@ -1,0 +1,10 @@
+uuid: dd163076-7657-40f2-ad53-36ca02fcaeb8
+langcode: en
+status: true
+dependencies: {  }
+id: account_addresses
+label: 'Account Addresses'
+icon_uuid: null
+icon_default: null
+description: 'Substrate addresses connected to user accounts.'
+behavior_plugins: {  }

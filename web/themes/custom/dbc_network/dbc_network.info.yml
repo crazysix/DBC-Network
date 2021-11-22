@@ -4,6 +4,9 @@ core_version_requirement: ^8 || ^9
 type: theme
 base theme: olivero
 
+libraries:
+  - dbc_network/dbc-network-global
+
 regions:
   header: Header
   primary_menu: 'Primary menu'

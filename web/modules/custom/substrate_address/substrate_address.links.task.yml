@@ -1,0 +1,5 @@
+substrate_address.address_form:
+  route_name: substrate_address.address_form
+  base_route: entity.user.canonical
+  title: Manage Substrate Addresses
+  weight: 100

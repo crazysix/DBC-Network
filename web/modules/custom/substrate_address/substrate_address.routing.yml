@@ -1,0 +1,21 @@
+substrate_address.test:
+  path: '/test-web3'
+  defaults:
+    _controller: '\Drupal\substrate_address\Controller\PolkadotExtensionController::basicTest'
+    _title: 'Web3 Test'
+  requirements:
+    _permission: 'access content'
+substrate_address.settings:
+  path: '/admin/config/services/substrate-address'
+  defaults:
+    _form: '\Drupal\substrate_address\Form\SettingsForm'
+  requirements:
+    _permission: 'administer dbc address config'
+substrate_address.address_form:
+  path: '/user/{user}/substrate-addresses'
+  defaults:
+    _form: '\Drupal\substrate_address\Form\SubstrateAddressForm'
+    _title: 'Link Substrate Addresses'
+  requirements:
+    _user_is_logged_in: 'TRUE'
+    user: \d+

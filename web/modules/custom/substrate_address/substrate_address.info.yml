@@ -1,0 +1,4 @@
+name: Substrate Address
+description: Connect account to web 3 addresses.
+type: module
+core_version_requirement: ^8.8 || ^9

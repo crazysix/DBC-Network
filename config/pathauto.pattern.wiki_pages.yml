@@ -1,0 +1,22 @@
+uuid: cc67cba4-f927-4e9c-82b9-5d3c5f14c6cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: wiki_pages
+label: 'Wiki Pages'
+type: 'canonical_entities:node'
+pattern: 'wiki/[node:title]'
+selection_criteria:
+  426de178-d0bd-44f4-924d-feb3c155d9c1:
+    id: node_type
+    negate: false
+    uuid: 426de178-d0bd-44f4-924d-feb3c155d9c1
+    context_mapping:
+      node: node
+    bundles:
+      wiki: wiki
+selection_logic: and
+weight: -5
+relationships: {  }

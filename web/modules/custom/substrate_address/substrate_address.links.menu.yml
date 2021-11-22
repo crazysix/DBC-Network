@@ -1,0 +1,6 @@
+substrate_address.settings:
+  title: 'Configure Substrate Address Settings'
+  description: 'Set values for address linking.'
+  parent: system.admin_config_services
+  route_name: substrate_address.settings
+  weight: 20

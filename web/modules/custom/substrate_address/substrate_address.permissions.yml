@@ -1,0 +1,4 @@
+administer dbc address config:
+  title: Configure Substrate Address
+  description: Configure the settings needed to connect substrate addresses.
+  restrict access: true

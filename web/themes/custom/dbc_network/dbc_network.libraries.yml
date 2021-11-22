@@ -1,0 +1,13 @@
+dbc-network-global:
+  version: 1.x
+  css:
+    theme:
+      css/dbc_network.css: {}
+  js:
+    js/jdenticon-3.1.1.min.js: {}
+    js/dbc_network.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+    - core/jquery.cookie

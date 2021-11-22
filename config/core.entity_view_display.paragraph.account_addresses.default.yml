@@ -1,0 +1,31 @@
+uuid: 04dd481c-2884-455f-8f71-337378ac576a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.account_addresses.field_address_status
+    - field.field.paragraph.account_addresses.field_substrate_address
+    - paragraphs.paragraphs_type.account_addresses
+  module:
+    - options
+id: paragraph.account_addresses.default
+targetEntityType: paragraph
+bundle: account_addresses
+mode: default
+content:
+  field_address_status:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_substrate_address:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

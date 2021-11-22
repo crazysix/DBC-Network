@@ -1,0 +1,23 @@
+uuid: 2ffe1010-ca3f-491b-9ee8-73ca6d08d48c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_address_status
+    - paragraphs.paragraphs_type.account_addresses
+  module:
+    - options
+id: paragraph.account_addresses.field_address_status
+field_name: field_address_status
+entity_type: paragraph
+bundle: account_addresses
+label: 'Address Status'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: pending
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -3,10 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_substrate_addresses
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - image
+    - paragraphs
     - user
 _core:
   default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
@@ -21,6 +23,18 @@ content:
   contact:
     weight: 5
     region: content
+  field_substrate_addresses:
+    type: entity_reference_paragraphs
+    weight: 7
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
   language:
     weight: 0
     region: content

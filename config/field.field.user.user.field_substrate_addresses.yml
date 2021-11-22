@@ -1,0 +1,31 @@
+uuid: 6580270b-6922-4188-8e45-4fd86e824d39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_substrate_addresses
+    - paragraphs.paragraphs_type.account_addresses
+  module:
+    - entity_reference_revisions
+    - user
+id: user.user.field_substrate_addresses
+field_name: field_substrate_addresses
+entity_type: user
+bundle: user
+label: 'Substrate Addresses'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      account_addresses: account_addresses
+    negate: 0
+    target_bundles_drag_drop:
+      account_addresses:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

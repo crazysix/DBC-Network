@@ -1,0 +1,6 @@
+name: Social Media Links Extras
+description: Custom module to extend link options in Social Media Links.
+type: module
+core_version_requirement: ^8 || ^9
+dependencies:
+  - social_media_links

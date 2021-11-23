@@ -7,5 +7,24 @@
 }
 
 #block-dropdownlanguage {
-  
+}
+
+#block-socialmedialinks {
+  display: none;
+}
+
+#block-socialmedialinks_2 {
+  display: flex;
+}
+
+@media (min-width: 75rem) {
+  #block-socialmedialinks {
+    display: flex;
+  }
+  #block-socialmedialinks_2 {
+    display: none;
+  }
+  .rotate #block-socialmedialinks a span {
+    transform: rotate(90deg);
+  }
 }

@@ -1,0 +1,157 @@
+uuid: e0319246-f2fb-4c05-8190-1d3d3ca2160a
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - dbc_network
+id: socialmedialinks
+theme: dbc_network
+region: social
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  label_display: '0'
+  provider: social_media_links
+  platforms:
+    graduation-cap:
+      value: 'playlist?list=PLs0M4u_1CX49mcIYPLSN_FZY8IKg27J6u'
+      description: 'Video Tutorials'
+      weight: '-41'
+    code-branch:
+      value: crazysix/DBC-Network
+      description: 'DBC Network Source Code'
+      weight: '-40'
+    youtube_channel:
+      value: UCE8fSDw-zYrw4OQc62JG_pQ
+      description: 'DBC Official YouTube'
+      weight: '-39'
+    email:
+      value: service@deepbrainchain.org
+      description: 'DBC Team Service'
+      weight: '-38'
+    github:
+      value: DeepBrainChain
+      description: 'DBC Code'
+      weight: '-37'
+    info-circle:
+      value: 'https://dbc.subscan.io/'
+      description: 'DBC Subscan'
+      weight: '-36'
+    reddit-alien:
+      value: DeepBrainChainGlobal
+      description: 'DBC Reddit Group'
+      weight: '-35'
+    medium:
+      value: 'https://deepbrainchainglobal.medium.com'
+      description: 'DBC Official Medium'
+      weight: '-34'
+    brain:
+      value: 'https://deepbrainchain.org/'
+      description: 'DBC Official Website'
+      weight: '-33'
+    wallet:
+      value: 'https://www.dbcwallet.io'
+      description: 'Wallet and Staking Application'
+      weight: '-32'
+    twitter:
+      value: DeepBrainChain
+      description: 'DBC Official Twitter'
+      weight: '-31'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-30'
+    facebook:
+      value: ''
+      description: ''
+      weight: '-29'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-28'
+    gitlab:
+      value: ''
+      description: ''
+      weight: '-27'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-26'
+    instagram:
+      value: ''
+      description: ''
+      weight: '-25'
+    linkedin:
+      value: ''
+      description: ''
+      weight: '-24'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '-23'
+    rss:
+      value: ''
+      description: ''
+      weight: '-22'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '-21'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-20'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '-19'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-18'
+    website:
+      value: ''
+      description: ''
+      weight: '-17'
+    whatsapp:
+      value: ''
+      description: ''
+      weight: '-16'
+    xing:
+      value: ''
+      description: ''
+      weight: '-15'
+    youtube:
+      value: ''
+      description: ''
+      weight: '-14'
+    behance:
+      value: ''
+      description: ''
+      weight: '-13'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-12'
+    contact:
+      value: ''
+      description: ''
+      weight: '-11'
+  appearance:
+    orientation: h
+    show_name: 0
+    suggestion: ''
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

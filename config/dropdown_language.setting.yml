@@ -3,4 +3,4 @@ _core:
 wrapper: false
 display_language_id: 3
 filter_untranslated: 0
-always_show_block: 0
+always_show_block: 1

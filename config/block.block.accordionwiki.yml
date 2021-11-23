@@ -1,0 +1,27 @@
+uuid: fcf9238a-f3fa-4288-aa7f-9ad16d767f02
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.wiki
+  module:
+    - accordion_menus
+    - system
+  theme:
+    - dbc_network
+id: accordionwiki
+theme: dbc_network
+region: sidebar
+weight: 0
+provider: null
+plugin: 'accordion_menus_block:wiki'
+settings:
+  id: 'accordion_menus_block:wiki'
+  label: 'Accordion Wiki'
+  label_display: '0'
+  provider: accordion_menus
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/wiki\r\n/wiki/*"

@@ -1,0 +1,8 @@
+uuid: 1806e6ef-52d0-4d8e-adf7-b4d5d0294286
+langcode: en
+status: true
+dependencies: {  }
+id: wiki
+label: Wiki
+description: 'Menu for Wiki documents.'
+locked: false

@@ -17,5 +17,7 @@ settings:
   label: 'Dropdown Language'
   label_display: '0'
   provider: dropdown_language
-  labels: null
+  labels:
+    en: English
+    zh-hans: 简体中文
 visibility: {  }

@@ -7,8 +7,8 @@ dependencies:
 third_party_settings:
   menu_ui:
     available_menus:
-      - main
-    parent: 'main:'
+      - wiki
+    parent: 'wiki:'
 name: Wiki
 type: wiki
 description: 'Wiki pages are used for providing instructions and information to the community.'

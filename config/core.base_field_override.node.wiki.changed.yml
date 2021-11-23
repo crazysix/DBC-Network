@@ -1,0 +1,18 @@
+uuid: b47df1e3-f5c3-47be-b297-250713e46803
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.wiki
+id: node.wiki.changed
+field_name: changed
+entity_type: node
+bundle: wiki
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

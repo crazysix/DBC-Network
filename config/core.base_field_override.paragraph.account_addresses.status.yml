@@ -1,0 +1,22 @@
+uuid: 52c35947-cec5-422c-8f26-db8ee9b0e0bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.account_addresses
+id: paragraph.account_addresses.status
+field_name: status
+entity_type: paragraph
+bundle: account_addresses
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

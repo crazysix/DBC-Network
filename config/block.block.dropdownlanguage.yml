@@ -1,0 +1,23 @@
+uuid: a136f7a3-9ad8-42b4-bec0-60738482580c
+langcode: en
+status: true
+dependencies:
+  module:
+    - dropdown_language
+  theme:
+    - dbc_network
+id: dropdownlanguage
+theme: dbc_network
+region: hero
+weight: -7
+provider: null
+plugin: 'dropdown_language:language_interface'
+settings:
+  id: 'dropdown_language:language_interface'
+  label: 'Dropdown Language'
+  label_display: '0'
+  provider: dropdown_language
+  labels:
+    en: English
+    zh-hans: 简体中文
+visibility: {  }

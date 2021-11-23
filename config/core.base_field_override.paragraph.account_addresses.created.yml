@@ -1,0 +1,18 @@
+uuid: c320df7c-b6fb-4280-bb11-54a320bd51d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.account_addresses
+id: paragraph.account_addresses.created
+field_name: created
+entity_type: paragraph
+bundle: account_addresses
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

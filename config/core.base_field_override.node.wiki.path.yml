@@ -1,0 +1,20 @@
+uuid: 4030c8b3-b208-4f11-a05d-f7b0e8ed34de
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.wiki
+  module:
+    - path
+id: node.wiki.path
+field_name: path
+entity_type: node
+bundle: wiki
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

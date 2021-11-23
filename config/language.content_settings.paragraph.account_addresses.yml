@@ -1,0 +1,18 @@
+uuid: 9cee7324-9d0d-46da-9eb6-305bfbc09f25
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.account_addresses
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.account_addresses
+target_entity_type_id: paragraph
+target_bundle: account_addresses
+default_langcode: site_default
+language_alterable: false

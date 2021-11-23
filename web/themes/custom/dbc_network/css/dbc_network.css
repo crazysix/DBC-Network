@@ -13,15 +13,19 @@
   display: none;
 }
 
-#block-socialmedialinks_2 {
+#block-socialmedialinks-2 {
   display: flex;
+}
+
+#block-socialmedialinks-2 ul {
+  margin-left: 0;
 }
 
 @media (min-width: 75rem) {
   #block-socialmedialinks {
     display: flex;
   }
-  #block-socialmedialinks_2 {
+  #block-socialmedialinks-2 {
     display: none;
   }
   .rotate #block-socialmedialinks a span {

@@ -8,8 +8,8 @@ dependencies:
     - dbc_network
 id: dropdownlanguage
 theme: dbc_network
-region: primary_menu
-weight: -6
+region: hero
+weight: -7
 provider: null
 plugin: 'dropdown_language:language_interface'
 settings:

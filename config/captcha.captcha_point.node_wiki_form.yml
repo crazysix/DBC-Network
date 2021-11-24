@@ -1,0 +1,7 @@
+uuid: 6933f48b-d340-410b-b2e0-adfc9ed4e1f5
+langcode: en
+status: false
+dependencies: {  }
+formId: node_wiki_form
+captchaType: default
+label: null

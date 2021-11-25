@@ -17,11 +17,11 @@ plugin: 'system_menu_block:wiki'
 settings:
   id: 'system_menu_block:wiki'
   label: Wiki
-  label_display: visible
+  label_display: '0'
   provider: system
   level: 1
   depth: 0
-  expand_all_items: false
+  expand_all_items: true
 visibility:
   request_path:
     id: request_path

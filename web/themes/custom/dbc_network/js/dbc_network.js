@@ -4,7 +4,11 @@
       //
     }
   };
-  $('aside li.menu__item--has-children').find('a').click(function(event){
+  $('aside nav.menu--wiki li.menu__item--has-children').find('a').click(function(event){
+    event.preventDefault();
+    $(this).parent().find('ul').slideToggle('fast');
+  });
+  $('.region--highlighted nav.menu--wiki li.menu__item--has-children').find('a').click(function(event){
     event.preventDefault();
     $(this).parent().find('ul').slideToggle('fast');
   });

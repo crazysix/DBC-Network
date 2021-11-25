@@ -11,3 +11,5 @@ dbc-network-global:
     - core/jquery
     - core/jquery.once
     - core/jquery.cookie
+    - core/drupalSettings
+    - core/drupal.dialog.ajax

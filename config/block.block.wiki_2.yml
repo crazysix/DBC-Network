@@ -1,0 +1,29 @@
+uuid: bf5a4f44-9531-49a4-bb5b-ece9797a33fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.wiki
+  module:
+    - system
+  theme:
+    - dbc_network
+id: wiki_2
+theme: dbc_network
+region: sidebar
+weight: 0
+provider: null
+plugin: 'system_menu_block:wiki'
+settings:
+  id: 'system_menu_block:wiki'
+  label: Wiki
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/wiki\r\n/wiki/*"

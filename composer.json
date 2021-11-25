@@ -42,7 +42,6 @@
         }
     ],
     "require": {
-        "drupal/accordion_menus": "^4.0",
         "drupal/admin_toolbar": "^3.0",
         "drupal/adminimal_admin_toolbar": "^1.11",
         "drupal/adminimal_theme": "^1.6",

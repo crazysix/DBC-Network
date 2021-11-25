@@ -5,6 +5,8 @@ type: theme
 base theme: olivero
 
 libraries:
+  - jquery_ui/core
+  - jquery_ui_accordion/accordion
   - dbc_network/dbc-network-global
 
 regions:

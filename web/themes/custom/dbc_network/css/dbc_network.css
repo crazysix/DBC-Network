@@ -21,6 +21,52 @@
   margin-left: 0;
 }
 
+.region--highlighted nav.menu--wiki {
+  display: block;
+}
+.region--sidebar nav.menu--wiki {
+  display: none;
+}
+
+.region--highlighted ul {
+  list-style: none;
+}
+.region--highlighted li {
+  list-style: none;
+}
+.region--highlighted li a {
+  text-decoration: none;
+  color: #0d1214;
+  font-weight: normal;
+}
+.region--highlighted li a:hover {
+  color: #2494db;
+}
+.menu--sidebar .menu__link--link {
+  font-weight: normal;
+}
+.region--highlighted li a.menu__link--active-trail,
+.menu--sidebar .menu__link--active-trail.menu__link--link {
+  font-weight: bold;
+}
+
+.menu--sidebar .menu__link--link.menu__link--has-children:before,
+.region--highlighted li a.menu__link--has-children:before {
+  content:"\f0d7 ";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 2px;
+  color: #bebebe;
+}
+.menu--sidebar .menu__link--link.menu__link--has-children.closed:before,
+.region--highlighted li a.menu__link--has-children.closed:before {
+  content:"\f0da ";
+}
+
+.region--highlighted nav.menu--wiki ul  ul {
+    display: none;
+  }
+
 @media (min-width: 75rem) {
   #block-socialmedialinks {
     display: flex;
@@ -30,5 +76,12 @@
   }
   .rotate #block-socialmedialinks a span {
     transform: rotate(90deg);
+  }
+
+  .region--highlighted nav.menu--wiki {
+    display: none;
+  }
+  .region--sidebar nav.menu--wiki {
+    display: block;
   }
 }

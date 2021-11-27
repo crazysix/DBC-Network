@@ -18,17 +18,21 @@ settings:
   label_display: '0'
   provider: social_media_links
   platforms:
-    twitter:
-      value: DeepBrainChain
-      description: 'DBC Official Twitter'
-      weight: '-41'
     wallet:
       value: 'https://www.dbcwallet.io'
       description: 'Wallet and Staking Application'
-      weight: '-40'
+      weight: '-42'
     brain:
       value: 'https://deepbrainchain.org/'
       description: 'DBC Official Website'
+      weight: '-41'
+    telegram:
+      value: deepbrainchainglobal
+      description: 'DBC Telegram'
+      weight: '-40'
+    twitter:
+      value: DeepBrainChain
+      description: 'DBC Official Twitter'
       weight: '-39'
     medium:
       value: 'https://deepbrainchainglobal.medium.com'

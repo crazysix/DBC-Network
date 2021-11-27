@@ -21,46 +21,50 @@ settings:
     graduation-cap:
       value: 'playlist?list=PLs0M4u_1CX49mcIYPLSN_FZY8IKg27J6u'
       description: 'Video Tutorials'
-      weight: '-41'
+      weight: '-42'
     code-branch:
       value: crazysix/DBC-Network
       description: 'DBC Network Source Code'
-      weight: '-40'
+      weight: '-41'
     youtube_channel:
       value: UCE8fSDw-zYrw4OQc62JG_pQ
       description: 'DBC Official YouTube'
-      weight: '-39'
+      weight: '-40'
     email:
       value: service@deepbrainchain.org
       description: 'DBC Team Service'
-      weight: '-38'
+      weight: '-39'
     github:
       value: DeepBrainChain
       description: 'DBC Code'
-      weight: '-37'
+      weight: '-38'
     info-circle:
       value: 'https://dbc.subscan.io/'
       description: 'DBC Subscan'
-      weight: '-36'
+      weight: '-37'
     reddit-alien:
       value: DeepBrainChainGlobal
       description: 'DBC Reddit Group'
-      weight: '-35'
+      weight: '-36'
     medium:
       value: 'https://deepbrainchainglobal.medium.com'
       description: 'DBC Official Medium'
-      weight: '-34'
-    brain:
-      value: 'https://deepbrainchain.org/'
-      description: 'DBC Official Website'
-      weight: '-33'
-    wallet:
-      value: 'https://www.dbcwallet.io'
-      description: 'Wallet and Staking Application'
-      weight: '-32'
+      weight: '-35'
     twitter:
       value: DeepBrainChain
       description: 'DBC Official Twitter'
+      weight: '-34'
+    telegram:
+      value: deepbrainchainglobal
+      description: 'DBC Telegram'
+      weight: '-33'
+    brain:
+      value: 'https://deepbrainchain.org/'
+      description: 'DBC Official Website'
+      weight: '-32'
+    wallet:
+      value: 'https://www.dbcwallet.io'
+      description: 'Wallet and Staking Application'
       weight: '-31'
     drupal:
       value: ''

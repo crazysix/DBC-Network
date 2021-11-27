@@ -4,3 +4,17 @@
  * @file
  * Substrate address integration.
  */
+
+/*
+ * Implements hook_theme().
+ */
+function substrate_address_theme() {
+  return [
+    'substrate_address' => [
+      'variables' => [
+        'addresses' => [],
+        'attributes' => [],
+      ],
+    ],
+  ];
+}

@@ -6,3 +6,4 @@ web3-bundle:
   dependencies:
     - core/jquery
     - core/drupalSettings
+    - core/drupal.ajax

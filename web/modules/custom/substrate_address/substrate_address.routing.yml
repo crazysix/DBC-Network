@@ -1,21 +1,22 @@
-substrate_address.test:
-  path: '/test-web3'
+substrate_address.substrate_address:
+  path: '/user/{user}/dbc-addresses'
   defaults:
-    _controller: '\Drupal\substrate_address\Controller\PolkadotExtensionController::basicTest'
-    _title: 'Web3 Test'
+    _controller: '\Drupal\substrate_address\Controller\PolkadotExtensionController::manageAddressesPage'
+    _title: 'Link DBC Accounts'
   requirements:
-    _permission: 'access content'
+    _user_is_logged_in: 'TRUE'
+    user: \d+
 substrate_address.settings:
   path: '/admin/config/services/substrate-address'
   defaults:
     _form: '\Drupal\substrate_address\Form\SettingsForm'
   requirements:
     _permission: 'administer dbc address config'
-substrate_address.address_form:
-  path: '/user/{user}/substrate-addresses'
+substrate_address.add_addresses:
+  path: '/user/add-substrate-address/{addresses}'
   defaults:
-    _form: '\Drupal\substrate_address\Form\SubstrateAddressForm'
-    _title: 'Link Substrate Addresses'
+    _controller: '\Drupal\substrate_address\Controller\PolkadotExtensionController::getNewSubstrateAddresses'
+    _title: 'Get new DBC Accounts'
+  no_cache: true
   requirements:
     _user_is_logged_in: 'TRUE'
-    user: \d+

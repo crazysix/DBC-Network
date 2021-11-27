@@ -1,5 +1,5 @@
-substrate_address.address_form:
-  route_name: substrate_address.address_form
+substrate_address.substrate_address:
+  route_name: substrate_address.substrate_address
   base_route: entity.user.canonical
-  title: Manage Substrate Addresses
+  title: Manage DBC Accounts
   weight: 100

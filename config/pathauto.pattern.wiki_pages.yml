@@ -3,20 +3,31 @@ langcode: en
 status: true
 dependencies:
   module:
+    - language
     - node
 id: wiki_pages
 label: 'Wiki Pages'
 type: 'canonical_entities:node'
 pattern: 'wiki/[node:title]'
 selection_criteria:
-  426de178-d0bd-44f4-924d-feb3c155d9c1:
+  b9adef52-2556-46bc-9dd2-6ff3398f4eff:
     id: node_type
     negate: false
-    uuid: 426de178-d0bd-44f4-924d-feb3c155d9c1
+    uuid: b9adef52-2556-46bc-9dd2-6ff3398f4eff
     context_mapping:
       node: node
     bundles:
       wiki: wiki
+  37f13506-13d3-45fd-9e41-c7b5069a5d36:
+    id: language
+    negate: false
+    uuid: 37f13506-13d3-45fd-9e41-c7b5069a5d36
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      en: en
 selection_logic: and
 weight: -5
-relationships: {  }
+relationships:
+  'node:langcode:language':
+    label: Language

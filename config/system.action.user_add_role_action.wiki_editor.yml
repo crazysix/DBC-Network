@@ -1,0 +1,14 @@
+uuid: 950d0195-4905-4286-9718-dee11df86767
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.wiki_editor
+  module:
+    - user
+id: user_add_role_action.wiki_editor
+label: 'Add the Wiki Editor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: wiki_editor

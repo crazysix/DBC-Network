@@ -1,0 +1,9 @@
+uuid: 2292668f-843c-4e66-8c8c-ed1bf14590f2
+langcode: en
+status: true
+dependencies: {  }
+id: wiki_editor
+label: 'Wiki Editor'
+weight: 4
+is_admin: null
+permissions: {  }

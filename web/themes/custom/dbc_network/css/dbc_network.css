@@ -46,7 +46,9 @@
   font-weight: normal;
 }
 .region--highlighted li a.menu__link--active-trail,
-.menu--sidebar .menu__link--active-trail.menu__link--link {
+.menu--sidebar .menu__link--active-trail.menu__link--link,
+.region--highlighted li a.is-active,
+.menu--sidebar .is-active.menu__link--link {
   font-weight: bold;
 }
 

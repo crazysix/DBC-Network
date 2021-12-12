@@ -1,14 +1,8 @@
-label: 分类术语
-description: 属于某个分类词汇的内容。
 display:
   default:
-    display_title: 默认
     display_options:
       pager:
         options:
-          tags:
-            next: ››
-            previous: ‹‹
           expose:
             items_per_page_label: 每页条目数
             items_per_page_options_all_label: '- 全部 -'
@@ -24,8 +18,3 @@ display:
         tid:
           exception:
             title: 全部
-          title: '{{ arguments.tid }}'
-  feed_1:
-    display_title: 种子
-  page_1:
-    display_title: 页面

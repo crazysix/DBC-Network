@@ -12,8 +12,6 @@ display:
       pager:
         options:
           tags:
-            previous: ‹‹
-            next: ››
             first: '« 首页'
             last: '末页 »'
           expose:
@@ -21,16 +19,10 @@ display:
             items_per_page_options_all_label: '- 全部 -'
             offset_label: 偏移量
       fields:
-        sid:
-          separator: ', '
-        in_draft:
-          separator: ', '
         created:
           label: 已建立
-          separator: ', '
         remote_addr:
           label: IP地址
-          separator: ', '
         view_webform_submission:
           label: 操作
           text: 查看
@@ -46,24 +38,14 @@ display:
       fields:
         webform_submission_bulk_form:
           action_title: 动作
-        sid:
-          separator: ', '
-        in_draft:
-          separator: ', '
         sticky:
           label: 置顶
-          separator: ', '
         locked:
           label: 锁定
-          separator: ', '
         created:
           label: 已建立
-          separator: ', '
-        completed:
-          separator: ', '
         remote_addr:
           label: IP地址
-          separator: ', '
         operations:
           label: 操作
       filters:
@@ -78,24 +60,14 @@ display:
       fields:
         webform_submission_bulk_form:
           action_title: 动作
-        sid:
-          separator: ', '
-        in_draft:
-          separator: ', '
         sticky:
           label: 置顶
-          separator: ', '
         locked:
           label: 锁定
-          separator: ', '
         created:
           label: 已建立
-          separator: ', '
-        completed:
-          separator: ', '
         remote_addr:
           label: IP地址
-          separator: ', '
         view_webform_submission:
           label: 操作
           text: 查看
@@ -112,24 +84,14 @@ display:
   embed_review:
     display_options:
       fields:
-        sid:
-          separator: ', '
-        in_draft:
-          separator: ', '
         sticky:
           label: 置顶
-          separator: ', '
         locked:
           label: 锁定
-          separator: ', '
         created:
           label: 已建立
-          separator: ', '
-        completed:
-          separator: ', '
         remote_addr:
           label: IP地址
-          separator: ', '
         view_webform_submission:
           label: 操作
           text: 查看

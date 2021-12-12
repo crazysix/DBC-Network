@@ -46,6 +46,7 @@
         "drupal/adminimal_admin_toolbar": "^1.11",
         "drupal/adminimal_theme": "^1.6",
         "drupal/chosen": "^3.0",
+        "drupal/codesnippet": "^1.7",
         "drupal/config_ignore": "^2.3",
         "drupal/ctools": "^3.7",
         "drupal/diff": "^1.0",
